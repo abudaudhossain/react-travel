@@ -55,15 +55,15 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans" !important;
     margin: 0;
     color: #1d3271;
 }
 
 h1 {
-    font-size: 50px;
-    line-height: 55px;
-    font-weight: 700;
+    font-size: 50px !important;
+    line-height: 55px !important;
+    font-weight: 700 !important;
 }
 
 .bg-btn {
@@ -641,7 +641,7 @@ section {
 
 .gs-btn-primary:hover {
     background: #ff5e14;
-    color: #fff;
+    color: #fff !important;
 }
 
 .gs-btn-filled {
