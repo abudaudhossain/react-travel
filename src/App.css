@@ -44,9 +44,7 @@ a {
     transition: 0.3s linear;
 }
 
-a:hover {
-    color: #ff5e14 !important;
-}
+
 
 
 h1,
@@ -90,9 +88,9 @@ h1 {
 }
 
 h2 {
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 36px;
+    font-size: 35px !important;
+    font-weight: 700 !important;
+    line-height: 36px !important;
 }
 
 @media screen and (max-width: 479px) {
@@ -121,9 +119,9 @@ h3 {
 }
 
 h4 {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 36px;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    line-height: 36px !important;
 }
 
 @media screen and (max-width: 479px) {

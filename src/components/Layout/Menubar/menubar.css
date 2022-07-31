@@ -11,7 +11,9 @@
     transition: 0.3s linear;
     position: relative;
 }
-
+.nav-item a:hover {
+    color: #ff5e14 !important;
+}
 .dropdown-menu.show {
     width: 250px;
     left: -154px;
