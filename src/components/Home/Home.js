@@ -5,6 +5,7 @@ import Team from '../shared/team/Team'
 import Banner from './Banner/Banner'
 import Destinations from './Destinations'
 import Features from './Features'
+import Packages from './Packages'
 import Services from './service/Services'
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <Team />
       <Destinations />
       <Reviews />
+      <Packages />
     </>
   )
 }
