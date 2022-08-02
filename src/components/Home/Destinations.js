@@ -50,19 +50,19 @@ const destinations = [
 
 const Destinations = () => {
     return (
-        <section class="popular-destination">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title text-center">
-                            <div class="sub-title">
+        <section className="popular-destination">
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                        <div className="section-title text-center">
+                            <div className="sub-title">
                                 <h6>Best</h6>
                             </div>
                             <h2>Popular destinations</h2>
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center">
+                <div className="row align-items-center">
                     {
                         destinations.map((destination, index) =>{
                             return <Destination key={index} destination= {destination} />

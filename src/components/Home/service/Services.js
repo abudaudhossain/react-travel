@@ -28,11 +28,11 @@ const services = [
 
 const Services = () => {
   return (
-    <section class="service-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="item-title">
+    <section className="service-section">
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-lg-6">
+            <div className="item-title">
               <h2>We Provied on demand vehicle rental solution For Our Travelers</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -44,8 +44,8 @@ const Services = () => {
               services.map((service, index) => <Service key={index} service={service} />)
             }
           </div>
-          <div class="col-lg-6">
-            <div class="service-img">
+          <div className="col-lg-6">
+            <div className="service-img">
               <img src={bg} alt="img" />
             </div>
           </div>

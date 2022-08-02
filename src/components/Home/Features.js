@@ -28,19 +28,19 @@ const features = [
 
 const Features = () => {
     return (
-        <section class="feature-section bg-color">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title text-center">
-                            <div class="sub-title">
+        <section className="feature-section bg-color">
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                        <div className="section-title text-center">
+                            <div className="sub-title">
                                 <h6>Feature</h6>
                             </div>
                             <h2>Unique Features</h2>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div className="row">
                     {
                         features.map((feature, index) => {
                             return <Feature key={index} feature={feature} />

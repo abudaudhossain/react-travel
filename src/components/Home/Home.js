@@ -1,4 +1,5 @@
 import React from 'react'
+import Reviews from '../shared/reviews/Reviews'
 import SubBanner from '../shared/SubBanner/SubBanner'
 import Team from '../shared/team/Team'
 import Banner from './Banner/Banner'
@@ -15,6 +16,7 @@ const Home = () => {
       <Services />
       <Team />
       <Destinations />
+      <Reviews />
     </>
   )
 }

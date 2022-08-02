@@ -3,21 +3,21 @@ import "./destination.css"
 
 const Destination = ({ destination }) => {
     return (
-        <div class="col-md-6 col-lg-4 col-sm-6">
-            <div class="destination-item-content">
-                <div class="image">
+        <div className="col-md-6 col-lg-4 col-sm-6">
+            <div className="destination-item-content">
+                <div className="image">
                     <img src={destination.img} alt="destination" />
                 </div>
-                <div class="item-overlay">
-                    <div class="content">
+                <div className="item-overlay">
+                    <div className="content">
                         <h4><a href="#">{destination.name}</a></h4>
-                        <div class="content-wrapper">
-                            <div class="content-meta d-flex align-items-center">
-                                <div class="meta">
-                                    <i class="ti-location-pin"></i>
+                        <div className="content-wrapper">
+                            <div className="content-meta d-flex align-items-center">
+                                <div className="meta">
+                                    <i className="ti-location-pin"></i>
                                     {destination.cities} Cities
                                 </div>
-                                <div class=""><i class="ti-eye"></i>
+                                <div className=""><i className="ti-eye"></i>
                                     20+ Tour Places
                                 </div>
                             </div>

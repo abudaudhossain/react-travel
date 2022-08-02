@@ -27,19 +27,19 @@ const members = [
 
 const Team = () => {
     return (
-        <section class="team-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title text-center">
-                            <div class="sub-title">
+        <section className="team-section">
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                        <div className="section-title text-center">
+                            <div className="sub-title">
                                 <h6>Our Team</h6>
                             </div>
                             <h2>Our Awesome Team</h2>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div className="row">
 
                     {
                         members.map((member, index) => <Member key={index} member={member} />)

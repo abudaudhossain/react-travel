@@ -2,11 +2,11 @@ import React from 'react'
 
 const Service = ({ service }) => {
     return (
-        <div class="service-content">
-            <div class="icon-box">
+        <div className="service-content">
+            <div className="icon-box">
                 <img src={service.img} alt="img" />
             </div>
-            <div class="content">
+            <div className="content">
                 <h5><a href="#">{service.title}</a></h5>
                 <p>
                     {
