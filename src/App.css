@@ -107,9 +107,9 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 36px;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    line-height: 36px !important;
 }
 
 @media screen and (max-width: 479px) {
@@ -653,4 +653,8 @@ section {
 .gs-btn-filled:hover {
     color: #ff5e14;
     background: transparent;
+}
+
+.map{
+    height: 80vh;
 }

@@ -46,8 +46,6 @@ const Packages = () => {
                                     )
                                 })
                             }
-
-
                         </Swiper>
                     </div>
                 </div>
