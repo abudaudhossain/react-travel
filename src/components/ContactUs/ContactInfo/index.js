@@ -4,41 +4,41 @@ import "./contactInfo.css"
 
 const index = () => {
     return (
-        <section class="contact-page">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="single-border text-left">
-                            <div class="sub-title">
+        <section className="contact-page">
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                        <div className="single-border text-left">
+                            <div className="sub-title">
                                 <h5>Contact With Us</h5>
                             </div>
                             <h2>If you Have any query, Dont Hesitate <br /> Contact with us</h2>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-5">
-                        <div class="contact-inform">
-                            <div class="address d-flex align-items-center">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <div class="information">
+                <div className="row">
+                    <div className="col-md-5">
+                        <div className="contact-inform">
+                            <div className="address d-flex align-items-center">
+                                <i className="fas fa-map-marker-alt"></i>
+                                <div className="information">
                                     <h4>Office Address</h4>
                                     46 suvastu arcade, 3rd Floor <br />
                                     palace road, London.
                                 </div>
                             </div>
-                            <div class="address d-flex align-items-center">
-                                <i class="fas fa-phone"></i>
-                                <div class=" information">
+                            <div className="address d-flex align-items-center">
+                                <i className="fas fa-phone"></i>
+                                <div className=" information">
                                     <h4>Phone</h4>
                                     <a href="tel:+882562562584">88 256 256 2584</a>
                                     <br />
                                     <a href="tel:+882562562584">88 256 256 2584</a>
                                 </div>
                             </div>
-                            <div class="address d-flex align-items-center">
-                                <i class="fas fa-envelope-open"></i>
-                                <div class=" information">
+                            <div className="address d-flex align-items-center">
+                                <i className="fas fa-envelope-open"></i>
+                                <div className=" information">
                                     <h4>Email</h4>
                                     <a href="mailto:info@example.com">info@example.com</a>
                                     <br />
@@ -47,9 +47,9 @@ const index = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7">
-                        <div class="row">
-                            <div class="col-12">
+                    <div className="col-md-7">
+                        <div className="row">
+                            <div className="col-12">
                                 <ContactForm />
                             </div>
                         </div>

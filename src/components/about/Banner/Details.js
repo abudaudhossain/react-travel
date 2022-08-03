@@ -9,7 +9,7 @@ const Details = () => {
       <Container >
         <Row>
           <Col>
-            <div class="des-detail">
+            <div className="des-detail">
               <h3>About the company</h3>
               <p>
                 Lorem ipsum available isn but the majority have suffered alteratin in some or form injected. Lorem Ipsum. Proin gravida nibh vel velit auctor aliqueenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagit
@@ -21,7 +21,7 @@ const Details = () => {
         </Row>
         <Row>
           <Col>
-            <div class="des-detail">
+            <div className="des-detail">
               <h3>Our mission</h3>
               <p>
                 Lorem ipsum available isn but the majority have suffered alteratin in some or form injected. Lorem Ipsum. Proin gravida nibh vel velit auctor aliqueenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagit
@@ -29,16 +29,16 @@ const Details = () => {
                 a odio tincidunt auctor.
               </p>
               <ul>
-                <li><p><i class="ti-check-box"></i> Pellentesque accumsan magna in augue sagittis, non fringilla eros molestie.</p></li>
-                <li><p><i class="ti-check-box"></i> Pellentesque accumsan magna in augue sagittis, non fringilla eros molestie.</p></li>
-                <li><p><i class="ti-check-box"></i> Pellentesque accumsan magna in augue sagittis, non fringilla eros molestie.</p></li>
-                <li><p><i class="ti-check-box"></i> Pellentesque accumsan magna in augue sagittis, non fringilla eros molestie.</p></li>
+                <li><p><i className="ti-check-box"></i> Pellentesque accumsan magna in augue sagittis, non fringilla eros molestie.</p></li>
+                <li><p><i className="ti-check-box"></i> Pellentesque accumsan magna in augue sagittis, non fringilla eros molestie.</p></li>
+                <li><p><i className="ti-check-box"></i> Pellentesque accumsan magna in augue sagittis, non fringilla eros molestie.</p></li>
+                <li><p><i className="ti-check-box"></i> Pellentesque accumsan magna in augue sagittis, non fringilla eros molestie.</p></li>
                 
               </ul>
             </div>
           </Col>
           <Col>
-            <div class="des-detail">
+            <div className="des-detail">
               <h3>Our mission</h3>
               <p>
                 Lorem ipsum available isn but the majority have suffered alteratin in some or form injected. Lorem Ipsum. Proin gravida nibh vel velit auctor aliqueenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagit

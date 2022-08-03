@@ -34,23 +34,23 @@ const blogs = [
 
 const Blogs = () => {
     return (
-        <section class="blog-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title text-center">
-                            <div class="sub-title">
+        <section className="blog-section">
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                        <div className="section-title text-center">
+                            <div className="sub-title">
                                 <h6>Blog</h6>
                             </div>
                             <h2>Latest Blog</h2>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div className="row">
                     {
                         blogs.map((blog, index) => {
                             return (
-                                <div class="col-lg-4 col-md-6 col-sm-6" key={index}>
+                                <div className="col-lg-4 col-md-6 col-sm-6" key={index}>
                                     <Blog blog={blog} />
                                 </div>
                             )
